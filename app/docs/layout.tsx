@@ -1,5 +1,5 @@
 import React from "react";
-import SideBar from "../components/sidebar";
+import SideBar from "@/components/sidebar";
 
 export const metadata = {
   title: "docs",

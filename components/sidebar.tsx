@@ -10,7 +10,7 @@ const SideBar = () => {
             <>
               {section.path ? (
                 <Link
-                  className="text-muted-foreground px-3 py-1 hover:bg-neutral-100 rounded-md"
+                  className="text-muted-foreground px-3 py-1 hover:bg-accent rounded-md transition-colors"
                   href={section.path}
                 >
                   {section.label}
